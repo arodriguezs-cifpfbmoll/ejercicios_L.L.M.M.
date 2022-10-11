@@ -1,8 +1,7 @@
 
 # LLenguatges de Marques
-```
-Una assignatura on aprendrem les següents tecnologies:
-```
+
+> Una assignatura on aprendrem les següents tecnologies:
 
 1. GIT
 2. HTML
