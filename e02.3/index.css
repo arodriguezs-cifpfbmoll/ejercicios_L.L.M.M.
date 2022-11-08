@@ -1,0 +1,45 @@
+
+
+      body {
+        background-color: grey;
+        color: white;
+      }
+
+      h1 {
+        text-align: center;
+        border-style: solid;
+        border-color: rgb(167, 167, 167);
+        color: white;
+      }
+
+      h2 {
+        color: yellow;
+        text-align: center;
+      }
+
+      .no {
+        background-color: white;
+        color: black;
+      }
+
+      img {
+        max-width: 870px;
+        border-color: yellow;
+        border-style: solid;
+      }
+
+      div {
+        color: black;
+      }
+
+      .azul {
+        background-color: aqua;
+      }
+
+      .blanco {
+        background-color: white;
+      }
+
+      .nature {
+        color: red;
+      }
