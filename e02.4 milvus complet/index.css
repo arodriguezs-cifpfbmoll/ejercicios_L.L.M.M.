@@ -58,7 +58,7 @@ body {
 }
 
 .especie {
-  background-color: whitesmoke;
+  background-color: rgb(252, 227, 195);
   color: black;
   text-align: left;
   padding: 2vw;
@@ -108,7 +108,7 @@ body {
 }
 
 .blanco {
-  background-color: whitesmoke;
+  background-color: rgb(252, 227, 195);
   padding: 2vw;
 }
 
