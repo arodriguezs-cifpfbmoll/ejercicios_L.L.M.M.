@@ -1,0 +1,25 @@
+body {
+  background-color: green;
+}
+
+.titulo {
+  color: yellow;
+}
+/*
+.learn {
+  max-width: 100%;
+  height: auto;
+}*/
+
+@media only screen and (max-width: 450px) {
+  body {
+    background-color: blue;
+  }
+  .titulo {
+    color: red;
+  }
+  .learn {
+    max-width: 100%;
+    height: auto;
+  }
+}
