@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(235, 233, 233);
+}
+
+.central {
+    display: flex;
+    margin-top: 12vh;
+    margin-left: 25vh;
+}
+
+.negro {
+    background-color: rgb(58, 58, 58);
+    width: 7vw;
+    height: 59vh;
+}
+
+.rr {
+    width: 15vw;
+    height: 10vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.index {
+    display: block;
+    background-color: snow;
+}
