@@ -1,27 +1,58 @@
 body {
-    background-color: rgb(235, 233, 233);
+  background-color: blue;
+  font-family: Verdana, Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  color: #4c4c4c;
 }
 
 .central {
-    display: flex;
-    margin-top: 12vh;
-    margin-left: 25vh;
+  display: flex;
+  margin-top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50vw;
+  max-width: 50vw;
+  height: 70vh;
+  max-height: 70vh;
 }
 
 .negro {
-    background-color: rgb(58, 58, 58);
-    width: 7vw;
-    height: 59vh;
+  background-color: rgb(58, 58, 58);
+  width: 9vw;
 }
 
 .rr {
-    width: 15vw;
-    height: 10vh;
-    margin-left: 2vw;
-    margin-top: 2vh;
+  width: 15vw;
+  height: auto;
+  margin-top: 5vh;
 }
 
 .index {
-    display: block;
-    background-color: snow;
+  background-color: snow;
+  text-align: center !important;
+  width: 50vw;
 }
+
+.titulo {
+    color: red;
+}
+
+.container {
+    padding-top: 5vh;
+    padding-left: 6vw;
+    padding-right: 10vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: blue;
+    }
+    .titulo {
+      color: red;
+    }
+    .negro {
+        width: 13vw;
+    }
+  }
+  
