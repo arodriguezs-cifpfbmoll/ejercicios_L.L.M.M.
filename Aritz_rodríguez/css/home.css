@@ -1,31 +1,68 @@
 body {
     height: 90vh;
     display: flex;
-    align-items: center;
     background-image: url(/ejercicios_LLMM/Aritz_Rodríguez/img/home.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  #elementos {
-    display: flex;
+#cabezera {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar {
+    float: left;
+}
+
+.navbar ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+.navbar ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
     font-size: 20px;
-    background-color: blueviolet;
-    padding: 1.5vw;
-    margin-bottom: 80vh;
 }
-  
-.menu {
-    background-color: white;
-    border-style: solid;
-    margin-right: 0.5vw;
-    padding-top: 0.5vh;
-    padding-left: 0.7vw;
-    padding-right: 0.7vw;
-    padding-bottom: 0.3vh;
+
+.navbar ul li a {
+    display: block; 
+    padding: 1.2vw;
+    color: #fff;
+    text-decoration: none;
 }
+
+.navbar ul li:hover {
+    background: #8b23ec;
+}
+
 
 #error {
     color: red;
+}
+
+.cuerpo {
+    color: white;
+    margin-top: 15vh;
+}
+
+.nota {
+    color: red;
+}
+
+h3 {
+    color: aqua;
+}
+
+h2 {
+    color: aqua;
+}
+
+.texto {
+    font-size: 1.5vw;
 }
