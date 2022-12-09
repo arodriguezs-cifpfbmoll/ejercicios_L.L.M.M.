@@ -40,19 +40,24 @@ body {
 
 .container {
     padding-top: 5vh;
-    padding-left: 6vw;
-    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;/*hace lo mismo con auto que con 10vw al poner la pestaña pequeña
+    width: 20vw;*/
 }
 
+.texto {
+  margin-bottom: 2vh;
+}
+/*
 @media only screen and (max-width: 1000px) {
-    body {
-      background-color: blue;
-    }
-    .titulo {
-      color: red;
-    }
     .negro {
         width: 13vw;
+    }
+    .container {
+      width: 40vw;
+    }
+    .texto {
+      width: 20vw;
     }
   }
   

@@ -1,0 +1,31 @@
+.fondo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 255, 0.2)), url('/img/reunion.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.personalizado {
+    background-color: rgb(202, 220, 224);
+}
+.ultimo {
+    background-color: rgb(234, 127, 255);
+}
+.centro {
+    background-image: url('/img/cielo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.packs {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 255, 0.2)), url('/img/chil.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.blanco {
+    color: white;
+}
