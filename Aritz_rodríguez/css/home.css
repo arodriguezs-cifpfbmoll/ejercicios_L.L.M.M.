@@ -1,31 +1,32 @@
-.fondo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 255, 0.2)), url('/img/reunion.png');
+body {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-image: url(/ejercicios_LLMM/Aritz_Rodríguez/img/home.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
+
+  #elementos {
+    display: flex;
+    font-size: 20px;
+    background-color: blueviolet;
+    padding: 1.5vw;
+    position: relative;
+    margin-bottom: 80vh;
+}
+  
+.menu {
+    background-color: white;
+    border-style: solid;
+    margin-right: 0.5vw;
+    padding-top: 0.5vh;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-bottom: 0.3vh;
 }
 
-.personalizado {
-    background-color: rgb(202, 220, 224);
-}
-.ultimo {
-    background-color: rgb(234, 127, 255);
-}
-.centro {
-    background-image: url('/img/cielo.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
-
-.packs {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(255, 255, 255, 0.2)), url('/img/chil.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.blanco {
-    color: white;
+#error {
+    color: red;
 }

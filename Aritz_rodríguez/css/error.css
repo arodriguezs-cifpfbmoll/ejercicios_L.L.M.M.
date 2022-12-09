@@ -1,11 +1,13 @@
 body {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
     background-image: url(/ejercicios_LLMM/Aritz_Rodríguez/img/error-404.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    height: 90vh;
+}
+
+.a {
+    font-size: 3vw;
+    max-width: 26vw;
+    margin-left: 38vw;
+    margin-top: 8vh;
 }
