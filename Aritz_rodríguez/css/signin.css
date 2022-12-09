@@ -1,28 +1,19 @@
-html,
-body {
-  height: 100%;
-  background-color: greenyellow;
-}
 
 body {
+  height: 100%;
   display: flex;
-  align-items: center;
+  align-items: center;/*
   padding-top: 40px;
-  padding-bottom: 40px;
-  background-image: url(/img/fondo.jpg);
+  padding-bottom: 40px;*/
+  background-image: url(/ejercicios_LLMM/Aritz_Rodríguez/img/fondo.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.logo {
-  width: 18vw;
-}
-
 .form-signin {
   width: 100%;
   max-width: 330px;
-  padding: 15px;
   margin: auto;
 }
 
@@ -34,7 +25,7 @@ body {
   z-index: 2;
 }
 
-.form-signin input[type="text"] {
+.form-signin input[type="email"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -44,4 +35,24 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.logo {
+  width: 18vw;
+}
+
+.form {
+  text-align: center;
+  margin-top: 10vh;
+  background-color: snow;
+  padding-top: 3vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 1vh;
+  width: 26vw;
+  opacity: 0.8;
+}
+
+.error {
+  background-color: aqua;
 }
