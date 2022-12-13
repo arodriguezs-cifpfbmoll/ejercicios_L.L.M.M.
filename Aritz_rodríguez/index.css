@@ -1,0 +1,77 @@
+:root {
+    font-size: 13px;
+}
+
+body {
+    background-color: black;
+    width: 800px;
+    max-width: 800px;
+    font-family: Verdana;
+    color: snow;
+    font-weight: bold;
+}
+
+.time {
+    text-align: center;
+}
+
+.discovery {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.ciudades {
+   display: flex;
+   margin-left: 5vw;
+}
+
+.poblacion {
+    margin-right: 3vw;
+    background-color: grey;
+    padding: 1vh;
+    margin-bottom: 3vh;
+    font-size: 1.2rem;
+}
+
+.warrior {
+    position: relative;
+    margin-left: 10vw;
+    max-width: 50vw;
+
+}
+
+.texto {
+    max-width: 98vw;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: red;
+      max-width: 500px;
+    }
+    .time {
+        margin-top: 1vh;
+    }
+
+    .discovery {
+    }
+
+    .ciudades {
+        display: block;
+        margin-left: 10vw;
+        margin-right: 3.9vw;
+    }
+    .poblacion {
+        margin-bottom: 1.5vh;
+    }
+    .warrior {
+        max-width: 98vw;
+        margin-left: 0vw;
+        padding-left: 0vw;
+    }
+
+    .texto {
+        max-width: 98vw;
+    }
+}
+  
