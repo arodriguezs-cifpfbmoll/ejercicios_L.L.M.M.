@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-calculator</title>
+</head>
+<body>
+    <p>Primer número: </p>
+    <input type="number" id="operator1">
+    <p>Segundo número: </p>
+    <button onclick='
+    
+    parseInt(var operator1 = document.getElementById("operator1").value);
+    parseInt(var operator2 = document.getElementById("operator2").value);
+    var resultado = operator1 + operator2;
+    parseInt(document.getElementById("muestra").innerHTML = resultado);'><!--function pareInt-->
+    +</button>
+    <input type="number" id="operator2">
+    <p>=</p>
+    <span id="muestra">0</span>
+</body>
+</html>

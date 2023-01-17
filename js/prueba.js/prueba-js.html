@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #mostrar {
+        color: red;
+        border: 1vw solid red;
+        padding: 3vh;
+    }
+</style>
+<body>
+    
+    <label for="">Escribe un mensaje: </label>
+    <input id="mensaje"/>
+    <br>
+    <button onclick='
+        document.getElementById("mostrar").innerHTML =
+        document.getElementById("mensaje").value;
+        document.getElementById("mostrar").style.backgroundColor = "yellow";
+        document.getElementById("mostrar").style.fontFamily = "Courier";
+
+        '>Enviar Mensaje
+    </button>
+
+    <p id="mostrar">jdfadslkjfa</p>
+
+</body>
+<script>
+/*
+    document.getElementById("mostrar").innerHTML 
+    document.getElementById("mensaje").value;
+*/
+</script>
+</html>

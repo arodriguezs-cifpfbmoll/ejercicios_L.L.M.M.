@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Euro-dolar</title>
+</head>
+<body>
+    <h2>y ya estaría</h2>
+    <p><span id="euro">0</span> Euros son <span id="dolar">0</span> dolares</p>
+</body>
+<script>
+    
+    var euros = window.prompt("cuantos euros quieres cambiar: ");
+    document.getElementById("euro").innerHTML = euros; 
+    document.getElementById("dolar").innerHTML = euros * 1.08;//document es un objeto que se refiere al body. Detrás del "document." vamos a 
+    //poner lo que queremos hacer, en este caso, getElementById
+    
+</script>
+</html>
