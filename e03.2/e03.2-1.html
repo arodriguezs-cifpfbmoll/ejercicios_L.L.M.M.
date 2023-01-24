@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Escriva la contraseña: </label>
+    <input id="c">
+    <br>
+    <br>
+    <button onclick="
+    
+    var con = document.getElementById('c').value;
+
+    if (con == 'dual123') {
+        var res = 'contrseña correcta';
+        document.getElementById('muestra').innerHTML = res;
+        /*console.log('contraseña correcta');*/
+    
+    }else {
+        var res = 'contrseña incorrecta';
+        document.getElementById('muestra').innerHTML = res;
+        /*console.log('contraseña incorrecta');*/
+    };
+    
+    ">COMPRUEBE</button>
+    <span id="muestra">-</span>
+</body>
+</html>
