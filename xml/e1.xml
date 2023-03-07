@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleado>
+        <nombre>Rosa Rostein</nombre>
+        <edad>27</edad>
+        <sitio>Londres</sitio>
+    </empleado>
+    <empleado>
+        <nombre>Jack Jovecky</nombre>
+        <edad>32</edad>
+        <sitio>Praga</sitio>
+    </empleado>
+    <empleado>
+        <nombre>Tim Tosk</nombre>
+        <edad>22</edad>
+        <sitio>Sidney</sitio>
+    </empleado>
+    <empleado>
+        <nombre>Aki Kovalen</nombre>
+        <edad>42</edad>
+        <sitio>Helsinki</sitio>
+    </empleado>
+</empresa>

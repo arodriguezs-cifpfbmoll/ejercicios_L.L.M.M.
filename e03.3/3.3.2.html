@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-3-2</title>
+</head>
+<body>
+    <label>Escriba una contraseña con la letra A: </label>
+    <input id="contraseña">
+    <button onclick="
+    
+    var contra = document.getElementById('contraseña').value;
+
+    var c = comprobar_letra(contraseña);
+
+    if (contra.indexOf('A') || contra.indexOf('a')) {
+        var muestra = 'Contraseña correcta';
+    } else {
+        var muestra = 'Contraseña incorrecta';
+    }
+    console.log(muestra);
+    
+
+    ">Compruebe</button>
+</body>
+<script>
+
+    function comprobar_letra(a) {
+        return a.length
+    };
+
+</script>
+</html>

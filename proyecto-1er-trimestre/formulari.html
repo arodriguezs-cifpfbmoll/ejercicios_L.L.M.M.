@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>formulario</title>
+    <style>
+      * {
+        font-size: 18px;
+      }
+      #container {
+        background-color: brown;
+        padding: 10px 15px;
+        height: 240px;
+      }
+      label {
+        width: 200px;
+        display: inline-block;
+        text-align: right;
+        margin: 8px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      input {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 3px;
+      }
+      button {
+        margin: 15px 0 0 240px;
+        padding: 5px 8px;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 200px;
+        font-size: 1.2rem;
+      }
+      #missatges {
+        margin: 10px 0 0 100px;
+        border: 1px solid black;
+        color: grey;
+        background-color: bisque;
+        font-size: 1.2rem;
+        padding: 20px 10px;
+        width: 300px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <label>Nombre:</label><input id="nom" /><br />
+      <label>Edad:</label><input id="edat" type="number" /> años<br />
+      <label>Email:</label><input id="email" type="text" /><br />
+      <div>
+        <button onclick="
+        
+        var nombre = document.getElementById('nom').value;
+        var n = contar_letras(nombre);
+
+        var e = parseFloat(document.getElementById('edat').value);
+
+        var mail = document.getElementById('email').value;
+        var m = validaMail(mail);
+        console.log(n); //no va el n
+
+        if (n > 20) {
+          document.getElementById('missatges').innerHTML = 'Nombre incorrecto';
+        } else if (e < 18) {
+          document.getElementById('missatges').innerHTML = 'No eres mayor de edad';
+          var eres = 'No eres mayor de edad'
+        } else if (m == false) {
+          document.getElementById('missatges').innerHTML = 'Email incorrecto';
+        } else {
+          document.getElementById('missatges').innerHTML = 'Validado correctamente';
+        };
+//usar elseif o elif
+
+        ">Validar</button>
+      </div>
+      <div id="missatges">
+
+      </div>
+    </div>
+  </body>
+
+  <script>
+    function validaMail(correu) {
+      var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+      if (correu =="") {
+        return false
+      }
+      if (correu.match(validRegex)) {
+        return true
+      } else {
+        return false
+      }
+    };
+
+    function contar_letras(p) {
+        return p.length
+    };
+
+    </script>
+</html>

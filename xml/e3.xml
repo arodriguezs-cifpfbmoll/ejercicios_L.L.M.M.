@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiche>
+    <ingredientes>
+        <harina>
+            <para>base de masa quebrada</para>
+            <cantidad>200g</cantidad>
+        </harina>
+        <mantequilla>
+            <para>base de masa quebrada</para>
+            <cantidad>100g</cantidad>
+        </mantequilla>
+        <clara-de-huevo>
+            <para>base de masa quebrada</para>
+            <cantidad>60/70g</cantidad>
+        </clara-de-huevo>
+        <cebolleta>
+            <para>relleno</para>
+            <cantidad>2</cantidad>
+        </cebolleta>
+        <zanahoria>
+            <para>relleno</para>
+            <cantidad>1</cantidad>
+        </zanahoria>
+        <calabacín>
+            <para>relleno</para>
+            <cantidad>0.5</cantidad>
+        </calabacín>
+        <queso-rallado>
+            <para>relleno</para>
+            <cantidad>100g</cantidad>
+        </queso-rallado>
+        <huevo>
+            <para>relleno</para>
+            <cantidad>3</cantidad>
+        </huevo>
+        <nata-liquida>
+            <para>relleno</para>
+            <cantidad>150ml</cantidad>
+        </nata-liquida>
+        <aceite-de-oliva-virgen-extra></aceite-de-oliva-virgen-extra>
+        <sal></sal>
+        <pimienta-negra-molida></pimienta-negra-molida>
+    </ingredientes>
+</quiche>

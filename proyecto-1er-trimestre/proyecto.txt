@@ -1,0 +1,58 @@
+CIFP Francesc de Borja Moll
+Projecte Trimestral - LLMM
+ Curs 2022-23
+PL2  - Javascript
+
+
+
+
+Com entregar aquest projecte?
+Crea el projecte en una carpeta anomenada  Nom_Llinatge.  
+Empra els materials disponibles en la carpeta base
+En acabar el projecte, entrega la carpeta comprimida a Classroom
+
+
+Resol els següents exercicis de Javascript. 
+EXERCICI 1. Form (5 punts)
+A partir del fitxer formulari.html escriu el codi Javascript que permeti que en clicar el botó Validar, se comprovi que:
+-El nom té com a màxim 20 caracters
+-L’edat ha de ser 18 o més anys
+-El email ha de ser correcte, per la qual cosa emprareu la funció validaMail  que trobareu definida en el codi. Aquesta funció retorna true si el correu és incorrecte i false  si el correu és incorrecte.
+1.5
+	Si el nom no es valida correctament, se mostra el missatge “Nom incorrecte”. 
+1.5
+	Si l’edat no es valida correctament, se mostra el missatge “No és major d’edat”
+1
+	Si l’email és incorrecte, mostra el missatge “email incorrecte”
+1
+	Si els tres camps se validen correctament, se mostra el missatge “Validat correctament”
+
+
+
+EXERCICI 2. Bombeta de llum (3 punts)
+Donades les imatges bombeta-on.jpg i bombeta-off,jpg i el fitxer  bombeta.html escriu codi Javascript que permeti que:
+1.5
+En clicar sobre la imatge de la bombeta apagada, mostra la bombeta encesa
+1.5
+En clicar sobre la imatge, alternativament mostra la imatge encesa i l’apagada
+
+
+Escriu tot el codi en un fitxer anomenat bombeta.html
+IMPORTANT: Per resoldre aquest exercici, necessites emprar aquesta funció:
+
+      /* Obté el nom del fitxer a partir de la ruta completa */
+      function getFileNameFromRoute(route) {
+        let pos = route.lastIndexOf("/");
+        return route.substr(pos + 1, route.length - pos);
+      }
+
+
+EXERCICI 3. Colors (2 punts)
+A partir del fitxer colors.html i segons el que es veu en el vídeo, escriu un codi Javascript que permeti :
+
+1
+En clicar sobre el boto Change Color, va canviant el color de forma rotativa. 
+1
+Després de 2 clics, torna a començar amb el primer color.
+
+

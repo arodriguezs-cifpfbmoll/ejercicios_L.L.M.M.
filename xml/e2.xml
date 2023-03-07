@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<departamento>
+    <pc>
+        <procesador>AMD Ryzen 7</procesador>
+        <ram>32 GB</ram>
+        <disco>Kioxia EXCERIA 480GB</disco>
+    </pc>
+    <pc>
+        <procesador>Intel i5</procesador>
+        <ram>16 GB</ram>
+        <disco> Seagate BarraCuda 3.5" de 2TB</disco>
+    </pc>
+    <pc>
+        <procesador>Intel i7</procesador>
+        <ram>8 GB</ram>
+        <disco>Kingston A400 de 240GB</disco>
+    </pc>
+</departamento>

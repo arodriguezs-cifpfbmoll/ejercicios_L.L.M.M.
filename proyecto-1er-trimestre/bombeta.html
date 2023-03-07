@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>bombilla</title>
+  </head>
+  <body>
+    <img id="image" src="lightbulb-off.png" style="width: 300px" onclick="
+
+      if (estado == 0) {
+        getFileNameFromRoute (document.getElementById('image').src='lightbulb-on.png') 
+        estado = 1;
+      } else {
+        getFileNameFromRoute (document.getElementById('image').src='lightbulb-off.png') 
+        estado = 0;
+      }
+
+      "/>
+    <script>
+      //Obté el nom del fitxer a partir de la ruta completa
+      function getFileNameFromRoute(route) {
+        pos = route.lastIndexOf("/");
+        return route.substr(pos + 1, route.length - pos);
+      }
+
+      var estado = 0;
+
+    </script>
+  </body>
+</html>
+
+
+<!--https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf-->
