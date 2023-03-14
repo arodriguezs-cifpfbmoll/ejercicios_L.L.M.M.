@@ -1,0 +1,4 @@
+<!ELEMENT clients (clinete+)>
+<!ELEMENT clients (clinete+)>
+<!ELEMENT preferente EMPTY>
+<!ELEMENT cif (#PCDATA)>

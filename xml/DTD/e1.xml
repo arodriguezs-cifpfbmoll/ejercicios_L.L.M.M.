@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE llistaventes SYSTEM "e1.dtd">
+<llistaventes>
+    <venda>
+        <import-en-euros></import-en-euros>
+        <nom-del-comprador></nom-del-comprador>
+        <nom-del-venedor></nom-del-venedor>
+        <data></data>
+    </venda>
+</llistaventes>
