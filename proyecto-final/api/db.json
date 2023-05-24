@@ -1,9 +1,74 @@
 {
-  "personas": [
+  "dispositivos": [
     {
-      "name": "al",
-      "surname": "ha",
+      "dispositive": "x",
+      "marca": "n",
       "id": 1
+    },
+    {
+      "dispositive": "dsaufdkjsaf",
+      "marca": "diufipoas",
+      "id": 2
+    },
+    {
+      "dispositive": "dsaufdkjsaf",
+      "marca": "diufipoas",
+      "id": 3
+    },
+    {
+      "dispositive": "dsaufdkjsaf",
+      "marca": "diufipoas",
+      "id": 4
+    },
+    {
+      "dispositive": "dsaufdkjsaf",
+      "marca": "diufip",
+      "id": 5
+    },
+    {
+      "dispositive": "dsaufdkjsaf",
+      "marca": "diufip",
+      "id": 6
+    },
+    {
+      "dispositive": "dsaufdkjsaf",
+      "marca": "diufip",
+      "id": 7
+    },
+    {
+      "dispositive": "hjgf",
+      "marca": "jhyftrt",
+      "id": 8
+    },
+    {
+      "dispositive": "hjgf",
+      "marca": "jhyftrt",
+      "id": 9
+    },
+    {
+      "dispositive": "hjgf",
+      "marca": "jhyftrt",
+      "id": 10
+    },
+    {
+      "dispositive": "pechuga",
+      "marca": "ala",
+      "id": 11
+    },
+    {
+      "dispositive": "pechuga",
+      "marca": "ala",
+      "id": 12
+    },
+    {
+      "dispositive": "pechuga",
+      "marca": "alaaa",
+      "id": 13
+    },
+    {
+      "dispositive": "pechuga",
+      "marca": "alaaa",
+      "id": 14
     }
   ]
 }
